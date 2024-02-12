@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Encriptador Aluna</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="reset.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Inter:wght@200;600&family=Open+Sans:wght@300;400;700&family=Poppins:wght@200;600&family=Righteous&family=Roboto:ital,wght@1,300&family=Space+Grotesk:wght@700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <img id="logo" src="/imagenes/Logo (1).png" />
+  </header>
+
+  <div class="section_1">
+    <input class="title_text" type="text" placeholder="Ingrese el texto aquí"></input>
+    <div class="container_advertencia">
+      <img Class="icon_advertencia" src="/imagenes/Vector.png" />
+      <h4 id="text_advertencia">Solo letras minúsculas y sin acentos</h4>
+    </div>
+    <button class="btn_Encriptar" onclick="mensajeAencriptar();" type="button">Encriptar</button>
+    <button class="btn_desencriptar" onclick="mensajeADesencriptar();" type="button">Desencriptar</button>
+  </div>
+  <!-- Aca es el container derecho -->
+  <div class="section_2">
+    <h3 id="title_text2"></h3>
+    <img id="section_2imagen" src="imagenes/Muñeco.png" />
+    <div class="section_2text">
+      <h2 class="title_text3">Ningún mensaje fue encontrado</h2>
+      <h4 class="title_text4">Ingresa el texto que desees encriptar o desencriptar.</h4>
+    </div>
+    <div>
+      <button class="btn_copiar" onclick="copiarMensaje()" type="button">Copiar</button>
+      <div>
+
+      </div>
+      <script src="app.js"></script>
+</body>
+
+</html>
