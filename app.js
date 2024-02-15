@@ -36,15 +36,15 @@ function mensajeADesencriptar() {
   return;
 }
 
-function copiarMensaje() {
-  let mensajeACopiar = document.getElementById("title_text2");
-  let button = document.querySelector("btn_copiar")
+// function copiarMensaje() {
+//   let mensajeACopiar = document.getElementById("title_text2");
+//   let button = document.querySelector("btn_copiar")
 
-  mensajeACopiar.select()
-  document.execCommand("copy")
-  button.innertText = "Copiado"
-  console.log(mensajeACopiar)
-}
+//   mensajeACopiar.select()
+//   document.execCommand("copy")
+//   button.innertText = "Copiado"
+//   console.log(mensajeACopiar)
+// }
 
 
 // mensajeACopiar = document.getElementById("title_text2").innerHTML;
@@ -58,4 +58,15 @@ function copiarMensaje() {
 // }
 
 
+// (".btn_copiar").addEventListener("click", async () => {
+//   await navigator.clipboard.writeText(section_2text.value)
+//   alert('Copiado');
+// })
 
+
+document.querySelector(".btn_copiar").addEventListener("click", function () {
+  let copiarTexto = document.querySelector("h3").innerHTML;
+  navigator.clipboard.writeText(copiarTexto).then(() => {
+    alert("Se copio este texto")
+  })
+})
