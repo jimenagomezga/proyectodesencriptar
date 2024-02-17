@@ -11,7 +11,7 @@ function mensajeAencriptar() {
   document.querySelector("h3").innerHTML = mensajeEncriptado;
   document.querySelector(".btn_copiar").style.display = "show";
   document.querySelector(".btn_copiar").style.display = "inherit";
-  // limpiarCaja()
+  limpiarCaja()
   return;
 }
 
