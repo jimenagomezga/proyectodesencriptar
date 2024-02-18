@@ -1,26 +1,11 @@
 body {
   background-color: #f3f5fc;
-  /* font-family: "Inconsolata", monospace; */
   font-family: "Inter", sans-serif;
-  /* font-family: "Open Sans", sans-serif;
-  font-family: "Poppins", sans-serif;
-  font-family: "Righteous", sans-serif;
-  font-family: "Roboto", sans-serif;
-  font-family: "Space Grotesk", sans-serif; */
-  /* width: 1440px; */
   height: 1024px;
+  width: 1440px;
   /* top: 622px;
   left: -2277px; */
 }
-
-/* .container_encriptador {
-} */
-
-/* .container_principal {
-  display: inline-block;
-  width: 100%;
-  background: blue;
-} */
 
 #logo {
   width: 120px;
@@ -33,26 +18,12 @@ body {
   display: inline-block;
   width: 400px;
   height: 944px;
-  /* margin-top: 40px; */
-  /* margin-left: 1000px; */
   right: 40px;
   border-radius: 32px;
   box-shadow: 0px 24px 32px -8px #00000014;
   position: absolute;
   top: 40px;
   background: #ffffff;
-  /* padding-left: 45px;
-  padding-right: 45px; */
-}
-
-.section_1 {
-  display: inline-block;
-  width: 680px;
-  /* height: 400px; */
-  margin-left: 240px;
-  margin-top: 40px;
-  margin-right: 80px;
-  /* background: #3461dd; */
 }
 
 .title_text {
@@ -70,28 +41,20 @@ body {
   border: none;
   background-color: #f3f5fc;
   word-break: break-all;
+  margin-left: 240px;
+  margin-top: 80px;
 }
 
-.section_buttons {
+.container_btns {
   width: 680px;
   height: 67px;
   margin-top: 670px;
   left: 240px;
+  margin-top: 10px;
+  margin-left: 240px;
+
 }
 
-.section_buttons h4 {
-  font-family: Inter;
-  font-size: 12px;
-  color: #495057;
-  margin-left: 18px;
-  display: inline-block;
-  margin: 0 auto;
-  width: 205px;
-  line-height: 18px;
-  /* height: 18px; */
-  opacity: 0.8px;
-  background: red;
-}
 
 .btn_Encriptar {
   width: 328px;
@@ -122,8 +85,8 @@ body {
   line-height: 48px;
   margin-left: 33px;
   width: 336px;
-  height: 244px;
-  margin-top: 33px;
+  height: 232px;
+  margin-top: 32px;
   left: 1032px;
 }
 
@@ -168,18 +131,16 @@ body {
   left: 240px;
   margin-bottom: 10px;
   margin-top: 395px;
-}
-
-.icon_advertencia {
-  margin-bottom: 0px;
+  margin-left: 240px;
 }
 
 #text_advertencia {
+  /* margin-top: 563px;
+  margin-left: 240px; */
   font-family: Inter;
   font-size: 12px;
   font-weight: 400;
   line-height: 0px;
-
   margin-top: -10px;
   margin-left: 18px;
 }
@@ -187,7 +148,7 @@ body {
 .btn_copiar {
   width: 336px;
   height: 67px;
-  margin-top: 550px;
+  margin-top: 584px;
   margin-left: 33px;
   padding: 24px;
   border-radius: 24px;
@@ -199,6 +160,4 @@ body {
   font-size: 16px;
   border: 1px solid #0a3871;
   display: none;
-
-
 }
