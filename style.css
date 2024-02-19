@@ -3,8 +3,6 @@ body {
   font-family: "Inter", sans-serif;
   height: 1024px;
   width: 1440px;
-  /* top: 622px;
-  left: -2277px; */
 }
 
 #logo {
@@ -37,12 +35,15 @@ body {
   line-height: 48px;
   letter-spacing: 0em;
   text-align: left;
-  color: #0a3871;
   border: none;
-  background-color: #f3f5fc;
+  background: #f3f5fc;
   word-break: break-all;
   margin-left: 240px;
   margin-top: 80px;
+}
+
+.title_text::placeholder {
+  color: #0a3871;
 }
 
 .container_btns {
@@ -52,7 +53,6 @@ body {
   left: 240px;
   margin-top: 10px;
   margin-left: 240px;
-
 }
 
 
@@ -91,11 +91,7 @@ body {
 }
 
 #section_2imagen {
-  /* width: 336px;
-  height: 304px; */
-  /* margin-top: 283px; */
   margin-left: 33px;
-  /* background: red; */
 }
 
 .section_2text {
@@ -160,4 +156,102 @@ body {
   font-size: 16px;
   border: 1px solid #0a3871;
   display: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  body {
+    width: 768px;
+    height: 1174;
+  }
+
+  #logo {
+    background: url(imagenes/Group3.png);
+    position: absolute;
+    width: 31px;
+    height: 46px;
+    margin-top: 76px;
+    margin-left: 40px;
+  }
+
+  .title_text {
+    width: 688px;
+    height: 48px;
+    margin-top: 240px;
+    margin-left: 40px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .title_text::placeholder {
+    color: #0A3871;
+  }
+
+  .container_advertencia {
+    width: 229px;
+    height: 18px;
+    margin-top: 596px;
+    margin-left: 40px;
+  }
+
+  .container_btns {
+    margin-left: 40px;
+  }
+
+  .section_2 {
+    width: 624px;
+    height: 343px;
+    margin-top: 1001px;
+    padding: 32px;
+    border-radius: 32px;
+    background: #FFFFFF;
+  }
+
+  #section_2imagen {
+    display: none;
+  }
+
+  .section_2text {
+    background: #388f10;
+    width: 524px;
+    margin-top: 1001px;
+    margin-left: 40px;
+    padding: 32px;
+    border-radius: 32px;
+  }
+
+  h3#title_text2 {
+    background: yellowgreen;
+    width: 624px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #495057;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .btn_copiar {
+    width: 624px;
+
+    margin-top: 50px;
+    margin-left: 0px;
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px;
+    color: #0a3871;
+    background: #c90b0b;
+    cursor: pointer;
+    font-family: Inter;
+    font-size: 16px;
+    border: 1px solid #0a3871;
+    display: none;
+  }
+
 }
