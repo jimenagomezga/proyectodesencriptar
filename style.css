@@ -12,6 +12,14 @@ body {
   margin-left: 40px;
 }
 
+.content3 {
+  width: 1440px;
+  /* height: 1024px; */
+  top: 622px;
+  left: -2277px;
+  display: grid;
+}
+
 .section_2 {
   display: inline-block;
   width: 400px;
@@ -25,10 +33,8 @@ body {
 }
 
 .title_text {
-  width: 680px;
-  height: 288px;
-  top: 168px;
-  left: 240px;
+  /* width: 680px;
+  height: 288px;*/
   font-family: Inter;
   font-size: 32px;
   font-weight: 400;
@@ -38,8 +44,12 @@ body {
   border: none;
   background: #f3f5fc;
   word-break: break-all;
-  margin-left: 240px;
+
+  width: 577px;
+  height: 48px;
   margin-top: 80px;
+  margin-left: 240px;
+
 }
 
 .title_text::placeholder {
@@ -49,9 +59,9 @@ body {
 .container_btns {
   width: 680px;
   height: 67px;
-  margin-top: 670px;
+  margin-top: 16px;
   left: 240px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   margin-left: 240px;
 }
 
@@ -85,21 +95,23 @@ body {
   line-height: 48px;
   margin-left: 33px;
   width: 336px;
-  height: 232px;
+  /* height: 232px; */
   margin-top: 32px;
   left: 1032px;
 }
 
 #section_2imagen {
   margin-left: 33px;
+  margin-top: 251px;
 }
 
 .section_2text {
   width: 336px;
-  height: 122px;
+  /* height: 122px; */
   top: 619px;
   left: 1032px;
   margin-left: 33px;
+  margin-top: 40px;
 }
 
 .title_text3 {
@@ -125,9 +137,12 @@ body {
   width: 229px;
   height: 16px;
   left: 240px;
-  margin-bottom: 10px;
-  margin-top: 395px;
+  /* margin-bottom: 10px; */
+  margin-top: 635px;
   margin-left: 240px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 #text_advertencia {
@@ -137,8 +152,8 @@ body {
   font-size: 12px;
   font-weight: 400;
   line-height: 0px;
-  margin-top: -10px;
-  margin-left: 18px;
+  /* margin-top: -10px;
+  margin-left: 18px; */
 }
 
 .btn_copiar {
@@ -162,7 +177,9 @@ body {
 
   body {
     width: 768px;
-    height: 1174;
+    /* height: 100vh; */
+    height: 1174px;
+    overflow: auto;
   }
 
   #logo {
@@ -204,11 +221,9 @@ body {
 
   .section_2 {
     width: 624px;
-    height: 343px;
+    height: auto;
     margin-top: 1001px;
     padding: 32px;
-    border-radius: 32px;
-    background: #FFFFFF;
   }
 
   #section_2imagen {
@@ -216,42 +231,48 @@ body {
   }
 
   .section_2text {
-    background: #388f10;
-    width: 524px;
-    margin-top: 1001px;
-    margin-left: 40px;
-    padding: 32px;
-    border-radius: 32px;
+    width: 624px;
+    height: 70px;
+    margin-top: 0px;
+    margin-left: auto;
+
   }
 
   h3#title_text2 {
-    background: yellowgreen;
     width: 624px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
+    max-height: 100%;
     font-size: 24px;
     line-height: 36px;
     color: #495057;
     margin-left: 0px;
     margin-top: 0px;
+    overflow-x: hidden;
+    position: absolute;
+    left: auto;
+  }
+
+  .title_text3 {
+    margin-top: 0px;
   }
 
   .btn_copiar {
     width: 624px;
-
-    margin-top: 50px;
+    margin-top: 210px;
     margin-left: 0px;
     padding: 24px;
     border-radius: 24px;
     border: 1px;
     color: #0a3871;
-    background: #c90b0b;
     cursor: pointer;
     font-family: Inter;
     font-size: 16px;
     border: 1px solid #0a3871;
     display: none;
+  }
+
+  .content3 {
+    background: red;
+    height: 100%;
   }
 
 }
