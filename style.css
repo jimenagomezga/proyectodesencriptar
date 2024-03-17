@@ -1,8 +1,9 @@
 body {
   background-color: #f3f5fc;
   font-family: "Inter", sans-serif;
-  height: 1024px;
+  /* height: 1024px; */
   width: 1440px;
+  display: flex;
 }
 
 #logo {
@@ -44,11 +45,12 @@ body {
   border: none;
   background: #f3f5fc;
   word-break: break-all;
-
-  width: 577px;
-  height: 48px;
+  width: 680px;
+  height: 288px;
   margin-top: 80px;
   margin-left: 240px;
+  color: #0A3871;
+
 
 }
 
@@ -92,12 +94,14 @@ body {
 #title_text2 {
   font-family: Inter;
   font-size: 20px;
-  line-height: 48px;
-  margin-left: 33px;
+  line-height: 36px;
+  margin-left: 32px;
   width: 336px;
-  /* height: 232px; */
+  height: 781px;
   margin-top: 32px;
-  left: 1032px;
+  /* left: 1032px; */
+  position: absolute;
+  overflow: hidden;
 }
 
 #section_2imagen {
@@ -110,13 +114,13 @@ body {
   /* height: 122px; */
   top: 619px;
   left: 1032px;
-  margin-left: 33px;
+  margin-left: 32px;
   margin-top: 40px;
 }
 
 .title_text3 {
   font-family: Inter;
-  margin-top: 33px;
+  margin-top: 32px;
   font-size: 24px;
   font-weight: 700;
   line-height: 29px;
@@ -138,7 +142,7 @@ body {
   height: 16px;
   left: 240px;
   /* margin-bottom: 10px; */
-  margin-top: 635px;
+  margin-top: 395px;
   margin-left: 240px;
   display: flex;
   justify-content: space-evenly;
@@ -159,8 +163,8 @@ body {
 .btn_copiar {
   width: 336px;
   height: 67px;
-  margin-top: 584px;
-  margin-left: 33px;
+  margin-top: 845px;
+  margin-left: 32px;
   padding: 24px;
   border-radius: 24px;
   border: 1px;
@@ -173,35 +177,24 @@ body {
   display: none;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
 
   body {
     width: 768px;
     /* height: 100vh; */
-    height: 1174px;
-    overflow: auto;
   }
 
   #logo {
-    background: url(imagenes/Group3.png);
     position: absolute;
-    width: 31px;
     height: 46px;
     margin-top: 76px;
-    margin-left: 40px;
+    margin-left: 0px;
   }
 
   .title_text {
-    width: 688px;
-    height: 48px;
+    height: 288px;
     margin-top: 240px;
     margin-left: 40px;
-    font-family: Inter;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 48px;
-    letter-spacing: 0em;
-    text-align: left;
   }
 
   .title_text::placeholder {
@@ -211,7 +204,7 @@ body {
   .container_advertencia {
     width: 229px;
     height: 18px;
-    margin-top: 596px;
+    margin-top: 308px;
     margin-left: 40px;
   }
 
@@ -224,6 +217,7 @@ body {
     height: auto;
     margin-top: 1001px;
     padding: 32px;
+    top: 0px;
   }
 
   #section_2imagen {
@@ -271,8 +265,103 @@ body {
   }
 
   .content3 {
-    background: red;
-    height: 100%;
+    width: 768px;
+    top: 2024px;
+    left: -2277px;
+
   }
+
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    width: 375px;
+    height: 100vh;
+  }
+
+  #logo {
+    background-image: url("./imagenes/Group3.png");
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 48px;
+    margin-top: 24px;
+    margin-left: 16px;
+  }
+
+  .title_text {
+    width: 343px;
+    margin-top: 152px;
+    margin-left: 16px;
+  }
+
+  .container_advertencia {
+    margin-top: 140px;
+    margin-left: 16px;
+  }
+
+  .container_btns {
+    margin-left: 16px;
+    width: 343px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn_Encriptar {
+    margin-bottom: 24px;
+    width: 343px;
+    padding: 24px;
+  }
+
+  .btn_desencriptar {
+    width: 343px;
+    padding: 24px;
+  }
+
+  .section_2 {
+    width: 263px;
+    height: auto;
+    margin-top: 707px;
+    right: 24px;
+    padding: 32px;
+
+  }
+
+  #section_2imagen {
+    display: none;
+  }
+
+  .section_2text {
+    width: 263px;
+    height: 122px;
+    margin-left: 0px
+  }
+
+  h3#title_text2 {
+    width: 263px;
+    margin: auto;
+    background: beige;
+    height: auto;
+    line-height: 36px;
+  }
+
+  .title_text3 {
+    margin-top: 0px;
+    margin-left: 2px;
+  }
+
+  .btn_copiar {
+    width: 279px;
+    background: violet;
+    margin-top: 464px;
+    margin-left: 0px
+  }
+
+  .content3 {
+    width: 375px;
+
+  }
+
 
 }

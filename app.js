@@ -1,5 +1,5 @@
 function mensajeAencriptar() {
-  let mensajeInicial = document.querySelector("input").value;
+  let mensajeInicial = document.querySelector("textarea").value;
   let mensajeEncriptado = mensajeInicial
     .replaceAll("e", "enter")
     .replaceAll("i", "imes")
@@ -16,11 +16,11 @@ function mensajeAencriptar() {
 }
 
 function limpiarCaja() {
-  document.querySelector("input").value = "";
+  document.querySelector("textarea").value = "";
 }
 
 function mensajeADesencriptar() {
-  let mensajeInicial = document.querySelector("input").value;
+  let mensajeInicial = document.querySelector("textarea").value;
   let mensajeEncriptado = mensajeInicial
     .replaceAll("enter", "e")
     .replaceAll("imes", "i")
