@@ -226,7 +226,7 @@ body {
 
   .section_2text {
     width: 624px;
-    height: 70px;
+    /* height: 70px; */
     margin-top: 0px;
     margin-left: auto;
 
@@ -268,7 +268,6 @@ body {
     width: 768px;
     top: 2024px;
     left: -2277px;
-
   }
 
 }
@@ -276,27 +275,23 @@ body {
 @media screen and (max-width: 767px) {
   body {
     width: 375px;
-    height: 100vh;
   }
 
   #logo {
-    background-image: url("./imagenes/Group3.png");
     position: absolute;
-    background-repeat: no-repeat;
-    width: 32px;
-    height: 48px;
-    margin-top: 24px;
-    margin-left: 16px;
+    margin-top: 25.05px;
+    margin-left: -28px;
   }
 
   .title_text {
     width: 343px;
+    height: 624px;
     margin-top: 152px;
     margin-left: 16px;
   }
 
   .container_advertencia {
-    margin-top: 140px;
+    margin-top: 64px;
     margin-left: 16px;
   }
 
@@ -306,6 +301,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 34px;
   }
 
   .btn_Encriptar {
@@ -322,10 +318,9 @@ body {
   .section_2 {
     width: 263px;
     height: auto;
-    margin-top: 707px;
+    top: 1095px;
     right: 24px;
     padding: 32px;
-
   }
 
   #section_2imagen {
@@ -335,13 +330,13 @@ body {
   .section_2text {
     width: 263px;
     height: 122px;
-    margin-left: 0px
+    margin-left: 0px;
+    margin-top: 0px;
   }
 
   h3#title_text2 {
     width: 263px;
     margin: auto;
-    background: beige;
     height: auto;
     line-height: 36px;
   }
@@ -353,14 +348,12 @@ body {
 
   .btn_copiar {
     width: 279px;
-    background: violet;
     margin-top: 464px;
-    margin-left: 0px
+    margin-left: -9px
   }
 
   .content3 {
     width: 375px;
-
   }
 
 
