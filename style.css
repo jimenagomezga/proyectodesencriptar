@@ -15,8 +15,8 @@ body {
 
 .content3 {
   width: 100%;
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
 }
 
 .section_2 {
