@@ -16,25 +16,31 @@
 
 <body>
   <div class="content3">
-    <img id="logo" src="imagenes/Logo (1).png" />
-    <textarea class="title_text" type="text" placeholder="Ingrese el texto aquí"></textarea>
-    <div class="container_advertencia">
-      <img Class="icon_advertencia" src="imagenes/Vector.png" />
-      <h4 id="text_advertencia">Solo letras minúsculas y sin acentos</h4>
-    </div>
-    <div class="container_btns">
-      <button class="btn_Encriptar" onclick="mensajeAencriptar();" type="button">Encriptar</button>
-      <button class="btn_desencriptar" onclick="mensajeADesencriptar();" type="button">Desencriptar</button>
-    </div>
-    <div class="section_2">
-      <h3 id="title_text2"></h3>
-      <img id="section_2imagen" src="imagenes/Muñeco.png" />
-      <div class="section_2text">
-        <h2 class="title_text3">Ningún mensaje fue encontrado</h2>
-        <h4 class="title_text4">Ingresa el texto que desees encriptar o desencriptar.</h4>
+    <!-- Este div es nuevo -->
+    <div class="cont1">
+      <img id="logo" src="imagenes/Logo (1).png" />
+      <textarea class="title_text" type="text" placeholder="Ingrese el texto aquí"></textarea>
+      <div class="container_advertencia">
+        <img Class="icon_advertencia" src="imagenes/Vector.png" />
+        <h4 id="text_advertencia">Solo letras minúsculas y sin acentos</h4>
       </div>
-      <div>
-        <button class="btn_copiar" type="button">Copiar</button>
+      <div class="container_btns">
+        <button class="btn_Encriptar" onclick="mensajeAencriptar();" type="button">Encriptar</button>
+        <button class="btn_desencriptar" onclick="mensajeADesencriptar();" type="button">Desencriptar</button>
+      </div>
+    </div>
+    <!-- Este div es nuevo -->
+    <div class="cont2">
+      <div class="section_2">
+        <h3 id="title_text2"></h3>
+        <img id="section_2imagen" src="imagenes/Muñeco.png" />
+        <div class="section_2text">
+          <h2 class="title_text3">Ningún mensaje fue encontrado</h2>
+          <h4 class="title_text4">Ingresa el texto que desees encriptar o desencriptar.</h4>
+        </div>
+        <div>
+          <button class="btn_copiar" type="button">Copiar</button>
+        </div>
       </div>
       <script src="app.js"></script>
 
